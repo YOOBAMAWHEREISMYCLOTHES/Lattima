@@ -219,7 +219,7 @@ section{
     margin-bottom: 5rem;
     padding-top:50px;
     padding-bottom: 50px;
-    background-image: url(../image/about-bg.png);
+    background-image: url(./image/about-bg.png);
     background-repeat: repeat-y;
     background-position: center top;
 }
@@ -283,7 +283,7 @@ section{
     margin-top: 5rem;
     padding-top:50px;
     padding-bottom: 50px;
-    background-image: url(../image/about-bg2.png);
+    background-image: url(./image/about-bg2.png);
     background-repeat: repeat-y;
     background-position: center top;
 }
@@ -341,7 +341,7 @@ section{
     margin-bottom: 5rem;
     padding-top:50px;
     padding-bottom: 50px;
-    background-image: url(../image/menu-bg.png);
+    background-image: url(./image/menu-bg.png);
     background-repeat: repeat-y;
     background-position: center top;
 }
@@ -403,7 +403,7 @@ section{
     margin-bottom: 5rem;
     padding-top:50px;
     padding-bottom: 50px;
-    background-image: url(../image/menu-bg2.png);
+    background-image: url(./image/menu-bg2.png);
     background-repeat: repeat-y;
     background-position: center top;
 }
@@ -465,7 +465,7 @@ section{
     margin-bottom: 5rem;
     padding-top:50px;
     padding-bottom: 50px;
-    background-image: url(../image/menu-bg.png);
+    background-image: url(./image/menu-bg.png);
     background-repeat: repeat-y;
     background-position: center top;
 }
