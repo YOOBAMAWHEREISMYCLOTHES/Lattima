@@ -525,6 +525,68 @@ section{
     margin-left: 5%;
 }
 
+.salty {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-image: url(./image/menu-bg2.png);
+    background-repeat: repeat-y;
+    background-position: center top;
+}
+
+.salty .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.salty .row .image{
+    flex: 1 1 55rem;
+}
+
+.salty .row .image img{
+    width: 50%;
+    margin-left: 10rem;
+}
+
+.salty .row .content{
+    flex: 1 1 45rem;
+    padding: 8rem;
+}
+
+.salty .row .content h3{
+    font-size: 3.5rem;
+    color: var(--main-color);
+    font-family: 'Gabriela', serif;
+}
+
+.salty .row .content p{
+    font-size: 2rem;
+    color: #444;
+    padding: 1rem 0;
+    line-height: 1.8;
+    font-family: 'Gabriela', serif;
+}
+
+.salty-table {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.salty-price {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    flex-basis: 100%;
+    flex: 1;
+    height: 30%;
+}
+.salty-price + .salty-price {
+    margin-left: 5%;
+}
+
 /* end */
 
 /* Gallery */
@@ -703,6 +765,13 @@ section{
         margin-right: auto;
     }
 
+    .salty .row .image img{
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .cakes .row .image img{
         width: 100%;
         display: block;
@@ -722,6 +791,10 @@ section{
         width: 35%;
     }
 
+    .salty .row .image img{
+        width: 35%;
+    }
+
     .cakes .row .image img{
         width: 80%;
     }
@@ -731,6 +804,10 @@ section{
     }
 
     #price-cold p{
+        color: #fff !important;
+    }
+
+    #price-salty p{
         color: #fff !important;
     }
 
@@ -855,6 +932,11 @@ section{
         padding-left: 3rem;
     }
 
+    #price-salty p{
+        color: #444 !important;
+        padding-left: 3rem;
+    }
+
     #name-cake p {
         color: #444 !important;
     }
@@ -902,6 +984,10 @@ section{
     }
 
     #price-cold p{
+        color: #fff !important;
+    }
+
+    #price-salty p{
         color: #fff !important;
     }
 
@@ -1001,6 +1087,11 @@ section{
         width: 5rem;
     }
 
+    .salty .row .content h3 {
+        font-size: 2.5rem;
+        width: 5rem;
+    }
+
     .cakes .row .content h3 {
         font-size: 2.5rem;
     }
@@ -1010,6 +1101,14 @@ section{
     }
 
     #price-cold p{
+        font-size: 1.7rem;
+    }
+
+    #name-salty p{
+        font-size: 1.7rem;
+    }
+
+    #price-salty p{
         font-size: 1.7rem;
     }
 
@@ -1070,6 +1169,11 @@ section{
         width: 10rem;
     }
 
+    .salty .row .content h3 {
+        font-size: 2.3rem;
+        width: 10rem;
+    }
+
     .cakes .row .content h3 {
         font-size: 2.3rem;
     }
@@ -1088,6 +1192,14 @@ section{
     }
 
     #price-cold p{
+        font-size: 1.5rem;
+    }
+
+    #name-salty p{
+        font-size: 1.5rem;
+    }
+
+    #price-salty p{
         font-size: 1.5rem;
     }
 
@@ -1124,11 +1236,25 @@ section{
         -webkit-text-stroke: var(--main-color) 2px;
     }
 
+    .colddrinks .row .content h3 {
+        font-size: 1.8rem;
+        width: 5rem;
+    }
+
+    .salty .row .content h3 {
+        font-size: 1.8rem;
+        width: 5rem;
+    }
+
     .home .content h3 {
         font-size: 2.7rem;
     }
 
     .colddrinks-price {
+        white-space: wrap;
+    }
+
+    .salty-price {
         white-space: wrap;
     }
 
@@ -1138,10 +1264,19 @@ section{
 
     #price-cold p{
         padding-left: -3rem;
-        line-height: 4rem;
+        line-height: 3.3rem;
     }
 
     #name-cold p {
+        padding-left: -3rem;
+        line-height: 2.7rem;
+    }
+
+    #price-salty p{
+        padding-left: -3rem;
+    }
+
+    #name-salty p {
         padding-left: -3rem;
         line-height: 2.7rem;
     }
