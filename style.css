@@ -546,7 +546,7 @@ section{
 }
 
 .salty .row .image img{
-    width: 50%;
+    width: 70%;
     margin-left: 10rem;
 }
 
@@ -766,7 +766,7 @@ section{
     }
 
     .salty .row .image img{
-        width: 50%;
+        width: 70%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -939,15 +939,21 @@ section{
 
     #name-cake p {
         color: #444 !important;
+        font-size: 1.6rem;
     }
 
     #price-cake p {
         padding-left: 1rem !important;
+        font-size: 1.6rem;
     }
 
 
     .cakes .row .image img{
         margin: 0 !important;
+    }
+
+    .salty .row .image img{
+        width: 50%;
     }
 
     .fbuttons .adress {
@@ -993,6 +999,12 @@ section{
 
     #name-cake p {
         color: #fff !important;
+        font-size: 2rem;
+    }
+
+    #price-cake p {
+        font-size: 2rem;
+        margin-left: 3rem;
     }
 
 }
@@ -1121,11 +1133,11 @@ section{
     }
 
     #name-cake p{
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
 
     #price-cake p{
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
 
 }
@@ -1204,11 +1216,11 @@ section{
     }
 
     #name-cake p{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     #price-cake p{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .fbuttons i {
